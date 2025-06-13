@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,612 +33,710 @@
 
 <body class="index-page">
   <% if (messages.error) { %>
-  <div class="alert alert-danger"><%= messages.error[0] %></div>
-<% } %>
-
-<% if (messages.success) { %>
-  <div class="alert alert-success"><%= messages.success[0] %></div>
-<% } %>
-
-  <header id="header" class="header d-flex flex-column justify-content-center">
-
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
-
-      <img src="assets/img/hero-bggg.jpeg" height="90%" width="90%" alt="">
-
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Aftab Mumtaz</h2>
-            <p>I'm <span class="typed" data-typed-items="Backend Developer,Express Developer, React Developer, NodeJS Developer, NextJS Developer">Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div class="social-links">
-              <a href="https://x.com/AftabMumta123?t=F1r01LWEyFpIxhfMJiTADg&s=09"><i class="bi bi-twitter-x"></i></a>
-              <a href="https://www.facebook.com/share/15maTwQZQZ/"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/aftab_mumtaz14?igsh=MWw0b3AzbHdpdjZ6aQ=="><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/aftab-mumtaz-89920635b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Hi, I’m Aftab Mumtaz, a passionate and self-driven full-stack developer. I specialize in crafting dynamic, responsive, and efficient web applications using technologies like Express.js, React.js, Next.js, and Laravel.
-
-At DevStak, I merge creativity with code to deliver seamless digital experiences — whether it's building scalable APIs, sleek frontends, or powerful backend systems.
-
-I believe in clean code, continuous learning, and the power of meaningful user experiences. Let’s build something great together!</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-img1.jpeg" style="height: 500px; width: 300px;" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 content">
-            <h2>UI/UX Designer &amp; Web Developer.</h2>
-            <p class="fst-italic py-3">
-              I’m a passionate developer with a focus on backend development and a growing interest in user-friendly frontend design. I enjoy building efficient, secure, and scalable web applications using modern technologies.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 DEC 1999</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>GITHUB:</strong> <span>https://github.com/aftabmumtaz123</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+923077945548</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Rahim Yar Khan, Pakistan</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's in Computer Science</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>aftabmumtaz14@gmail.com</span></li>
-                </ul>
-              </div>
-            </div>
-            <p class="py-3">
-              With strong experience in Express.js, MongoDB, React, and Laravel, I specialize in building full-stack applications that solve real-world problems. I'm always eager to learn new tools, collaborate on exciting projects, and deliver high-quality results — whether it’s a personal passion project or a business solution.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-headset"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>I’ve gained hands-on experience with both frontend and backend technologies. While my strength lies in backend development, I’ve also built several frontend interfaces using modern tools. My skills reflect a balanced approach to full stack development:</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Node JS</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>ExpressJS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>ReactJS/NextJS</span> <i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-
-              
-            </div><!-- End Skills Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>I’m a passionate Full Stack Developer with a focus on building functional, secure, and scalable web applications. My backend proficiency in technologies like PHP and MySQL allows me to handle data-driven projects, while my growing frontend skills help me deliver complete user experiences. I’ve worked on various academic and freelance projects, each adding valuable experience to my portfolio.
-
-I continuously strive to improve my skills, contribute to open-source, and deliver quality work to clients or teams I collaborate with.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Aftab Mumtaz</h4>
-              <p><em>Enthusiastic and detail-driven Full Stack Web Developer with a strong focus on backend development. Proficient in modern technologies including Express.js, Node.js, MongoDB, and PostgreSQL, with solid frontend experience using React.js, HTML, CSS, and JavaScript. Skilled in designing RESTful APIs, managing databases, and building responsive, scalable applications. Committed to writing clean, efficient code and continuously learning to stay updated with evolving technologies. Passionate about solving real-world problems through smart and reliable web solutions.</em></p>
-              <ul>
-                <li>Rahim Yar Khan, Punjab, Pakistan</li>
-                <li>+923077945548</li>
-                <li>aftabmumtaz14@gmail.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor's in Computer Science &amp; Web Development</h4>
-              <h5>2023 - 2027</h5>
-              <p><em>Superior University, Rahim Yar Khan, Punjab</em></p>
-              <p>I am studying and working on web development on my own to learn these technologies and create some special skills which can make me financially fit</p>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Intermediate in Computer Science</h4>
-              <h5>2020 - 2022</h5>
-              <p><em>Khawaja Fareed College, Rahim Yar Khan, Punjab</em></p>
-              <p>I am working on web development from my college and web development is my passion to learn more and take it as my Profession</p>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Internee in Devicon as a backend developer</h4>
-              <h5>2024 - 2025</h5>
-              <p><em>Devicon, Rahim Yar Khan, Punjab </em></p>
-              <ul>
-                <li>Helped to the 7 members of the backend team and provide counsel on all aspects of the project. </li>
-                <li>Created some projects using ExpressJS and Node JS and ReactJS such as blog Web App, weather App, Movies search mechanism, Family tracking System and more</li>
-                <li>Also worked for devicon on a eCommerce website from which I gained a lot of experience</li>
-                <li>Worked in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Explore some of the projects I've built using modern web technologies. These projects reflect my passion for backend development and my ability to integrate clean, functional frontend interfaces when needed.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/app-1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Random Band Generator</h4>
-                <p>Create any random band name</p>
-                <a href="assets/img/masonry-portfolio/app-1.png" title="Random Band Generator" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                
-            </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/shop2.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Ecommerce Frontend</h4>
-                <p>An Ecommerce website for University Projects</p>
-                <a href="assets/img/masonry-portfolio/shop2.png" title="User layout" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://accessories-loop.vercel.app" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/shop.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Ecommerce Backend</h4>
-                <p>Here we can apply CRUD operations</p>
-                <a href="assets/img/masonry-portfolio/shop.png" title="Admin Panel" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/aftabmumtaz123/blog_app" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/watch.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Watch Timer</h4>
-                <p>I can set a time where I can get notified</p>
-                <a href="assets/img/masonry-portfolio/watch1.png" title="Timer" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="accessories-loop.netlify.app" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/blog.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Blog App</h4>
-                <p>It's an blog app where you can perform CRUD operations</p>
-                <a href="assets/img/masonry-portfolio/blog.png" title="Blog App" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/aftabmumtaz123/blog_app" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            
-            </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/movies.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Movies Searching site</h4>
-                <p>Here you can search different movies Old and Latest</p>
-                <a href="assets/img/masonry-portfolio/movies.png" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/aftabmumtaz123/movies_api" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/weather.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Weather App</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/weather.png" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/aftabmumtaz123/weather_app" title="Weather App" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/expense.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Expense Tracker</h4>
-                <p>Here you can manage your all expenses</p>
-                <a href="assets/img/masonry-portfolio/expense.png" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/user.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>User Management System</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/user.png" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>As a dedicated full-stack developer, I offer a range of services that help businesses build secure, scalable, and responsive web applications. Here’s how I can help:</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                </svg>
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Backend Development</h3>
-              </a>
-              <p>Design and implement powerful, secure server-side systems with Node.js, Express.js, MongoDB, and PostgreSQL. From RESTful APIs to complex data handling — I’ve got it covered.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                </svg>
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Frontend Development</h3>
-              </a>
-              <p>Develop clean, user-friendly interfaces using React.js. Seamlessly connect frontend and backend for smooth user experiences.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                </svg>
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Automation & Notifications</h3>
-              </a>
-              <p>Build automation features such as email reminders, form handling, and notification systems to improve user engagement and efficiency.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Why Work With Me?</h2>
-        <p>"Aftab brought our idea to life with a clean, professional backend using Node.js, ExpressJS and MongoDB. His dedication, speed, and communication made the whole process easy and productive. <br>
-— <b>Sir Awais
-Mentor</b>"</p>
-      </div><!-- End Section Title -->
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p><b>Let’s build something great together!</b> Whether you have a question, want to collaborate, or just want to say hello — I’m always open to connecting.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>Rahim Yar Khan, Punjab, Pakistan</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+923077945548</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>aftabmumtaz14@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="/send" method="post" class="php-email-form" >
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="true">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="true">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="true">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required="true"></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div><h3><%= locals.msg %></h3></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
-      <h3 class="sitename">Aftab Mumtaz</h3>
-      <p><b>Turning ideas into impactful web experiences.</b><br>
-Let’s connect and create something amazing — from frontend designs to powerful backend systems.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/aftab.mumtaz.1213"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/aftab_mumtaz14"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/aftab-mumtaz-89920635b"><i class="bi bi-skype"></i></a>
-        <a href="https://x.com/AftabMumta123"><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Aftab Mumtaz</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          Developed by <a href="https://github.com/aftabmumtaz123">Aftab Mumtaz</a></a>
-        </div>
-      </div>
+    <div class="alert alert-danger">
+      <%= messages.error[0] %>
     </div>
-  </footer>
+    <% } %>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <% if (messages.success) { %>
+        <div class="alert alert-success">
+          <%= messages.success[0] %>
+        </div>
+        <% } %>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+          <header id="header" class="header d-flex flex-column justify-content-center">
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+            <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script>
-  setTimeout(() => {
-    const alert = document.querySelector('.alert');
-    if (alert) alert.style.display = 'none';
-  }, 3000); // hides after 3 seconds
-</script>
+            <nav id="navmenu" class="navmenu">
+              <ul>
+                <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+                <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+                <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+                <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+                <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+              </ul>
+            </nav>
+
+          </header>
+
+          <main class="main">
+
+            <!-- Hero Section -->
+            <section id="hero" class="hero section light-background">
+
+              <img src="assets/img/hero-bggg.jpeg" height="90%" width="90%" alt="">
+
+              <div class="container" data-aos="zoom-out">
+                <div class="row justify-content-center">
+                  <div class="col-lg-9">
+                    <h2>Aftab Mumtaz</h2>
+                    <p>I'm <span class="typed"
+                        data-typed-items="Backend Developer,Express Developer, React Developer, NodeJS Developer, NextJS Developer">Developer</span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+                    <div class="social-links">
+                      <a href="https://x.com/AftabMumta123?t=F1r01LWEyFpIxhfMJiTADg&s=09"><i
+                          class="bi bi-twitter-x"></i></a>
+                      <a href="https://www.facebook.com/share/15maTwQZQZ/"><i class="bi bi-facebook"></i></a>
+                      <a href="https://www.instagram.com/aftab_mumtaz14?igsh=MWw0b3AzbHdpdjZ6aQ=="><i
+                          class="bi bi-instagram"></i></a>
+                      <a
+                        href="https://www.linkedin.com/in/aftab-mumtaz-89920635b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                          class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section><!-- /Hero Section -->
+
+            <!-- About Section -->
+            <section id="about" class="about section">
+
+              <!-- Section Title -->
+              <div class="container section-title" data-aos="fade-up">
+                <h2>About</h2>
+                <p>Hi, I’m Aftab Mumtaz, a passionate and self-driven full-stack developer. I specialize in crafting
+                  dynamic, responsive, and efficient web applications using technologies like Express.js, React.js,
+                  Next.js, and Laravel.
+
+                  At DevStak, I merge creativity with code to deliver seamless digital experiences — whether it's
+                  building scalable APIs, sleek frontends, or powerful backend systems.
+
+                  I believe in clean code, continuous learning, and the power of meaningful user experiences. Let’s
+                  build something great together!</p>
+              </div><!-- End Section Title -->
+
+              <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-4">
+                    <img src="assets/img/profile-img1.jpeg" style="height: 500px; width: 300px;" class="img-fluid"
+                      alt="">
+                  </div>
+                  <div class="col-lg-8 content">
+                    <h2>UI/UX Designer &amp; Web Developer.</h2>
+                    <p class="fst-italic py-3">
+                      I’m a passionate developer with a focus on backend development and a growing interest in
+                      user-friendly frontend design. I enjoy building efficient, secure, and scalable web applications
+                      using modern technologies.
+                    </p>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <ul>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 DEC 1999</span>
+                          </li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>GITHUB:</strong>
+                            <span>https://github.com/aftabmumtaz123</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+923077945548</span>
+                          </li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Rahim Yar Khan,
+                              Pakistan</span></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <ul>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's in Computer
+                              Science</span></li>
+                          <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                            <span>aftabmumtaz14@gmail.com</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p class="py-3">
+                      With strong experience in Express.js, MongoDB, React, and Laravel, I specialize in building
+                      full-stack applications that solve real-world problems. I'm always eager to learn new tools,
+                      collaborate on exciting projects, and deliver high-quality results — whether it’s a personal
+                      passion project or a business solution.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+            </section><!-- /About Section -->
+
+            <!-- Stats Section -->
+            <section id="stats" class="stats section">
+
+              <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                    <i class="bi bi-emoji-smile"></i>
+                    <div class="stats-item">
+                      <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                        class="purecounter"></span>
+                      <p>Happy Clients</p>
+                    </div>
+                  </div><!-- End Stats Item -->
+
+                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                    <i class="bi bi-journal-richtext"></i>
+                    <div class="stats-item">
+                      <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                        class="purecounter"></span>
+                      <p>Projects</p>
+                    </div>
+                  </div><!-- End Stats Item -->
+
+                  <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                    <i class="bi bi-headset"></i>
+                    <div class="stats-item">
+                      <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                        class="purecounter"></span>
+                      <p>Hours Of Support</p>
+                    </div>
+                  </div><!-- End Stats Item -->
+                </div>
+
+              </div>
+
+            </section><!-- /Stats Section -->
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills section">
+
+              <!-- Section Title -->
+              <div class="container section-title" data-aos="fade-up">
+                <h2>Skills</h2>
+                <p>I’ve gained hands-on experience with both frontend and backend technologies. While my strength lies
+                  in backend development, I’ve also built several frontend interfaces using modern tools. My skills
+                  reflect a balanced approach to full stack development:</p>
+              </div><!-- End Section Title -->
+
+              <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row skills-content skills-animation">
+
+                  <div class="col-lg-6">
+
+                    <div class="progress">
+                      <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                      <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div><!-- End Skills Item -->
+
+                    <div class="progress">
+                      <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                      <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div><!-- End Skills Item -->
+
+                    <div class="progress">
+                      <span class="skill"><span>JavaScript</span> <i class="val">85%</i></span>
+                      <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div><!-- End Skills Item -->
+
+                  </div>
+
+                  <div class="col-lg-6">
+
+                    <div class="progress">
+                      <span class="skill"><span>Node JS</span> <i class="val">85%</i></span>
+                      <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div><!-- End Skills Item -->
+
+                    <div class="progress">
+                      <span class="skill"><span>ExpressJS</span> <i class="val">90%</i></span>
+                      <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div><!-- End Skills Item -->
+
+                    <div class="progress">
+                      <span class="skill"><span>ReactJS/NextJS</span> <i class="val">65%</i></span>
+                      <div class="progress-bar-wrap">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+
+
+                    </div><!-- End Skills Item -->
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </section><!-- /Skills Section -->
+
+            <!-- Resume Section -->
+            <section id="resume" class="resume section">
+
+              <!-- Section Title -->
+              <div class="container section-title" data-aos="fade-up">
+                <h2>Resume</h2>
+                <p>I’m a passionate Full Stack Developer with a focus on building functional, secure, and scalable web
+                  applications. My backend proficiency in technologies like PHP and MySQL allows me to handle
+                  data-driven projects, while my growing frontend skills help me deliver complete user experiences. I’ve
+                  worked on various academic and freelance projects, each adding valuable experience to my portfolio.
+
+                  I continuously strive to improve my skills, contribute to open-source, and deliver quality work to
+                  clients or teams I collaborate with.</p>
+              </div><!-- End Section Title -->
+
+              <div class="container">
+
+                <div class="row">
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Sumary</h3>
+
+                    <div class="resume-item pb-0">
+                      <h4>Aftab Mumtaz</h4>
+                      <p><em>Enthusiastic and detail-driven Full Stack Web Developer with a strong focus on backend
+                          development. Proficient in modern technologies including Express.js, Node.js, MongoDB, and
+                          PostgreSQL, with solid frontend experience using React.js, HTML, CSS, and JavaScript. Skilled
+                          in designing RESTful APIs, managing databases, and building responsive, scalable applications.
+                          Committed to writing clean, efficient code and continuously learning to stay updated with
+                          evolving technologies. Passionate about solving real-world problems through smart and reliable
+                          web solutions.</em></p>
+                      <ul>
+                        <li>Rahim Yar Khan, Punjab, Pakistan</li>
+                        <li>+923077945548</li>
+                        <li>aftabmumtaz14@gmail.com</li>
+                      </ul>
+                    </div><!-- Edn Resume Item -->
+
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                      <h4>Bachelor's in Computer Science &amp; Web Development</h4>
+                      <h5>2023 - 2027</h5>
+                      <p><em>Superior University, Rahim Yar Khan, Punjab</em></p>
+                      <p>I am studying and working on web development on my own to learn these technologies and create
+                        some special skills which can make me financially fit</p>
+                    </div><!-- Edn Resume Item -->
+
+                    <div class="resume-item">
+                      <h4>Intermediate in Computer Science</h4>
+                      <h5>2020 - 2022</h5>
+                      <p><em>Khawaja Fareed College, Rahim Yar Khan, Punjab</em></p>
+                      <p>I am working on web development from my college and web development is my passion to learn more
+                        and take it as my Profession</p>
+                    </div><!-- Edn Resume Item -->
+
+                  </div>
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="resume-title">Professional Experience</h3>
+                    <div class="resume-item">
+                      <h4>Internee in Devicon as a backend developer</h4>
+                      <h5>2024 - 2025</h5>
+                      <p><em>Devicon, Rahim Yar Khan, Punjab </em></p>
+                      <ul>
+                        <li>Helped to the 7 members of the backend team and provide counsel on all aspects of the
+                          project. </li>
+                        <li>Created some projects using ExpressJS and Node JS and ReactJS such as blog Web App, weather
+                          App, Movies search mechanism, Family tracking System and more</li>
+                        <li>Also worked for devicon on a eCommerce website from which I gained a lot of experience</li>
+                        <li>Worked in the design, development, and implementation of the graphic, layout, and production
+                          communication materials</li>
+
+                      </ul>
+                    </div><!-- Edn Resume Item -->
+
+
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </section><!-- /Resume Section -->
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="portfolio section">
+
+              <!-- Section Title -->
+              <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>Explore some of the projects I've built using modern web technologies. These projects reflect my
+                  passion for backend development and my ability to integrate clean, functional frontend interfaces when
+                  needed.</p>
+              </div><!-- End Section Title -->
+
+              <div class="container">
+
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-product">Card</li>
+                    <li data-filter=".filter-branding">Web</li>
+                  </ul><!-- End Portfolio Filters -->
+
+                  <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                      <img src="assets/img/masonry-portfolio/app-1.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Random Band Generator</h4>
+                        <p>Create any random band name</p>
+                        <a href="assets/img/masonry-portfolio/app-1.png" title="Random Band Generator"
+                          data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                      <img src="assets/img/masonry-portfolio/shop2.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Ecommerce Frontend</h4>
+                        <p>An Ecommerce website for University Projects</p>
+                        <a href="assets/img/masonry-portfolio/shop2.png" title="User layout"
+                          data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                        <a href="https://accessories-loop.vercel.app" title="More Details" class="details-link"><i
+                            class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                      <img src="assets/img/masonry-portfolio/shop.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Ecommerce Backend</h4>
+                        <p>Here we can apply CRUD operations</p>
+                        <a href="assets/img/masonry-portfolio/shop.png" title="Admin Panel"
+                          data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/aftabmumtaz123/blog_app" title="More Details"
+                          class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                      <img src="assets/img/masonry-portfolio/watch.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Watch Timer</h4>
+                        <p>I can set a time where I can get notified</p>
+                        <a href="assets/img/masonry-portfolio/watch1.png" title="Timer"
+                          data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                        <a href="accessories-loop.netlify.app" title="More Details" class="details-link"><i
+                            class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                      <img src="assets/img/masonry-portfolio/blog.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Blog App</h4>
+                        <p>It's an blog app where you can perform CRUD operations</p>
+                        <a href="assets/img/masonry-portfolio/blog.png" title="Blog App"
+                          data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/aftabmumtaz123/blog_app" title="More Details"
+                          class="details-link"><i class="bi bi-link-45deg"></i></a>
+
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                      <img src="assets/img/masonry-portfolio/movies.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Movies Searching site</h4>
+                        <p>Here you can search different movies Old and Latest</p>
+                        <a href="assets/img/masonry-portfolio/movies.png" title="Branding 2"
+                          data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/aftabmumtaz123/movies_api" title="More Details"
+                          class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                      <img src="assets/img/masonry-portfolio/weather.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Weather App</h4>
+                        <p>Lorem ipsum, dolor sit</p>
+                        <a href="assets/img/masonry-portfolio/weather.png" title="App 3"
+                          data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/aftabmumtaz123/weather_app" title="Weather App"
+                          class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                      <img src="assets/img/masonry-portfolio/expense.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>Expense Tracker</h4>
+                        <p>Here you can manage your all expenses</p>
+                        <a href="assets/img/masonry-portfolio/expense.png" title="Product 3"
+                          data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                      <img src="assets/img/masonry-portfolio/user.png" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <h4>User Management System</h4>
+                        <p>Lorem ipsum, dolor sit</p>
+                        <a href="assets/img/masonry-portfolio/user.png" title="Branding 2"
+                          data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                            class="bi bi-zoom-in"></i></a>
+                      </div>
+                    </div><!-- End Portfolio Item -->
+
+                  </div><!-- End Portfolio Container -->
+
+                </div>
+
+              </div>
+
+            </section><!-- /Portfolio Section -->
+
+            <!-- Services Section -->
+            <section id="services" class="services section">
+
+              <!-- Section Title -->
+              <div class="container section-title" data-aos="fade-up">
+                <h2>Services</h2>
+                <p>As a dedicated full-stack developer, I offer a range of services that help businesses build secure,
+                  scalable, and responsive web applications. Here’s how I can help:</p>
+              </div><!-- End Section Title -->
+
+              <div class="container">
+
+                <div class="row gy-4">
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item item-cyan position-relative">
+                      <div class="icon">
+                        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                            d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174">
+                          </path>
+                        </svg>
+                        <i class="bi bi-activity"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                        <h3>Backend Development</h3>
+                      </a>
+                      <p>Design and implement powerful, secure server-side systems with Node.js, Express.js, MongoDB,
+                        and PostgreSQL. From RESTful APIs to complex data handling — I’ve got it covered.</p>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item item-orange position-relative">
+                      <div class="icon">
+                        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                            d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426">
+                          </path>
+                        </svg>
+                        <i class="bi bi-broadcast"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                        <h3>Frontend Development</h3>
+                      </a>
+                      <p>Develop clean, user-friendly interfaces using React.js. Seamlessly connect frontend and backend
+                        for smooth user experiences.</p>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item item-teal position-relative">
+                      <div class="icon">
+                        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                            d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
+                          </path>
+                        </svg>
+                        <i class="bi bi-easel"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                        <h3>Automation & Notifications</h3>
+                      </a>
+                      <p>Build automation features such as email reminders, form handling, and notification systems to
+                        improve user engagement and efficiency.</p>
+                    </div>
+                  </div><!-- End Service Item -->
+
+
+                </div>
+
+              </div>
+
+            </section><!-- /Services Section -->
+
+            <!-- Testimonials Section -->
+            <section id="testimonials" class="testimonials section">
+
+              <!-- Section Title -->
+              <div class="container section-title" data-aos="fade-up">
+                <h2>Why Work With Me?</h2>
+                <p>"Aftab brought our idea to life with a clean, professional backend using Node.js, ExpressJS and
+                  MongoDB. His dedication, speed, and communication made the whole process easy and productive. <br>
+                  — <b>Sir Awais
+                    Mentor</b>"</p>
+              </div><!-- End Section Title -->
+              </div>
+              </div>
+
+              </div>
+
+            </section><!-- /Testimonials Section -->
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact section">
+
+              <!-- Section Title -->
+              <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p><b>Let’s build something great together!</b> Whether you have a question, want to collaborate, or
+                  just want to say hello — I’m always open to connecting.</p>
+              </div><!-- End Section Title -->
+
+              <div class="container" data-aos="fade" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                  <div class="col-lg-4">
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                      <i class="bi bi-geo-alt flex-shrink-0"></i>
+                      <div>
+                        <h3>Address</h3>
+                        <p>Rahim Yar Khan, Punjab, Pakistan</p>
+                      </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                      <i class="bi bi-telephone flex-shrink-0"></i>
+                      <div>
+                        <h3>Call Us</h3>
+                        <p>+923077945548</p>
+                      </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                      <i class="bi bi-envelope flex-shrink-0"></i>
+                      <div>
+                        <h3>Email Us</h3>
+                        <p>aftabmumtaz14@gmail.com</p>
+                      </div>
+                    </div><!-- End Info Item -->
+
+                  </div>
+
+                  <div class="col-lg-8">
+                    <form action="/send" method="post" class="php-email-form">
+                      <div class="row gy-4">
+
+                        <div class="col-md-6">
+                          <input type="text" name="name" class="form-control" placeholder="Your Name" required="true">
+                        </div>
+
+                        <div class="col-md-6 ">
+                          <input type="email" class="form-control" name="email" placeholder="Your Email"
+                            required="true">
+                        </div>
+
+                        <div class="col-md-12">
+                          <input type="text" class="form-control" name="subject" placeholder="Subject" required="true">
+                        </div>
+
+                        <div class="col-md-12">
+                          <textarea class="form-control" name="message" rows="6" placeholder="Enter your message and also your contact number please!"
+                            required="true"></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                          <div class="loading">Loading</div>
+                          <div>
+                            <h3>
+                              <%= locals.msg %>
+                            </h3>
+                          </div>
+                          <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                          <button type="submit">Send Message</button>
+                        </div>
+
+                      </div>
+                    </form>
+                  </div><!-- End Contact Form -->
+
+                </div>
+
+              </div>
+
+            </section><!-- /Contact Section -->
+
+          </main>
+
+          <footer id="footer" class="footer position-relative light-background">
+            <div class="container">
+              <h3 class="sitename">Aftab Mumtaz</h3>
+              <p><b>Turning ideas into impactful web experiences.</b><br>
+                Let’s connect and create something amazing — from frontend designs to powerful backend systems.</p>
+              <div class="social-links d-flex justify-content-center">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/aftab.mumtaz.1213"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/aftab_mumtaz14"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aftab-mumtaz-89920635b"><i class="bi bi-skype"></i></a>
+                <a href="https://x.com/AftabMumta123"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="container">
+                <div class="copyright">
+                  <span>Copyright</span> <strong class="px-1 sitename">Aftab Mumtaz</strong> <span>All Rights
+                    Reserved</span>
+                </div>
+                <div class="credits">
+                  Developed by <a href="https://github.com/aftabmumtaz123">Aftab Mumtaz</a></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+          <!-- Scroll Top -->
+          <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+              class="bi bi-arrow-up-short"></i></a>
+
+          <!-- Preloader -->
+          <div id="preloader"></div>
+
+          <!-- Vendor JS Files -->
+          <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+          <script src="assets/vendor/aos/aos.js"></script>
+          <script src="assets/vendor/typed.js/typed.umd.js"></script>
+          <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+          <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+          <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+          <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+          <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+          <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+          <!-- Main JS File -->
+          <script src="assets/js/main.js"></script>
+          <script>
+            setTimeout(() => {
+              const alert = document.querySelector('.alert');
+              if (alert) alert.style.display = 'none';
+            }, 3000); // hides after 3 seconds
+          </script>
 
 
 </body>
